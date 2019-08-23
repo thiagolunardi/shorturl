@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29209.62
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryHero.Tests", "DeliveryHero.Tests\DeliveryHero.Tests.csproj", "{543566FF-7D63-4FD8-A570-766FC3DD4D37}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryHero.Api", "DeliveryHero.Api\DeliveryHero.Api.csproj", "{C06983CD-36B8-4A3E-AEB0-18619B8076A3}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryHero.AppDomain", "DeliveryHero.AppDomain\DeliveryHero.AppDomain.csproj", "{75DB8830-7C58-4A33-A864-56897C996C54}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryHero.Data", "DeliveryHero.Data\DeliveryHero.Data.csproj", "{6B41495F-DF38-4358-B51A-709003AABC93}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7097CDFB-DB5F-4D84-AFE2-D40EAC83DDC1}"
+	ProjectSection(SolutionItems) = preProject
+		.dockerignore = .dockerignore
+		docker-compose = docker-compose
+		Dockerfile = Dockerfile
+	EndProjectSection
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeliveryHero", "DeliveryHero\DeliveryHero.csproj", "{CFD2AA68-BDF0-4867-BA44-E517EB474D37}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{543566FF-7D63-4FD8-A570-766FC3DD4D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{543566FF-7D63-4FD8-A570-766FC3DD4D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{543566FF-7D63-4FD8-A570-766FC3DD4D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{543566FF-7D63-4FD8-A570-766FC3DD4D37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C06983CD-36B8-4A3E-AEB0-18619B8076A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C06983CD-36B8-4A3E-AEB0-18619B8076A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C06983CD-36B8-4A3E-AEB0-18619B8076A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C06983CD-36B8-4A3E-AEB0-18619B8076A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{75DB8830-7C58-4A33-A864-56897C996C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{75DB8830-7C58-4A33-A864-56897C996C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{75DB8830-7C58-4A33-A864-56897C996C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{75DB8830-7C58-4A33-A864-56897C996C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6B41495F-DF38-4358-B51A-709003AABC93}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B41495F-DF38-4358-B51A-709003AABC93}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B41495F-DF38-4358-B51A-709003AABC93}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B41495F-DF38-4358-B51A-709003AABC93}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFD2AA68-BDF0-4867-BA44-E517EB474D37}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFD2AA68-BDF0-4867-BA44-E517EB474D37}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFD2AA68-BDF0-4867-BA44-E517EB474D37}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFD2AA68-BDF0-4867-BA44-E517EB474D37}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D590FD20-4341-49CA-B30B-A66E040D68C2}
+	EndGlobalSection
+EndGlobal
